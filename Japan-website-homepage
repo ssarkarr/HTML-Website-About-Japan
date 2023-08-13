@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+<meta charset ="utf-utf8">
+<meta name="viewport" content ="width=device-width, initial scale=1.0">
+<head>
+
+<style>
+
+    body {background-color: lightcoral;}
+    h1 {text-align: center;
+        font-size: xx-large;}
+    
+    .picture-box{
+        border: 2px solid black;
+        padding: 20px;
+        background-color: pink;}
+    
+    .picture-box img {
+        max-width: 42%;
+        height: 400px;
+        margin: 0 48px;}
+
+    .Japan-intro {text-align: center;}
+    .Japan-text {text-align: center;}
+    
+    h3 {margin-top: 35px;
+        font-size: x-large;}
+    h4 {font-size: x-large;}
+    h5 {font-size: x-large;}
+    h6 {font-size: x-large;
+        margin-bottom: 30px;
+        margin-top: 30px;}
+   
+    
+    .divider {border: none;
+      border-top: 1px solid black;
+      margin: 20px 0;
+      margin-top: 40px;}
+    
+    ul {list-style-type: circle;
+        padding-left: 20px;}
+    li {margin-bottom: 10px;
+        margin-left: 35px;}
+    
+    .newsfeed-headline{font-style: italic;
+      font-size: medium ;}
+    .summary {margin-left: 30px;}
+    
+    table {
+      border-collapse: collapse;}
+    td {border: 1px solid black;
+      padding: 8px;
+      background-color: antiquewhite;}
+    .lightpink {background-color: lightpink;
+      text-align: center;}
+    
+    .logo {width: 5%;
+      height: 55px;}
+    
+    .image-with-text {display: flex;
+      align-items: center;
+      margin-bottom: 20px;}
+
+    .image-with-text img {margin-right: 10px;}
+    
+    .info {text-align: center;
+           font-size: large;}
+    .info a {display: inline-block;
+        margin: 0 10px;}
+    
+
+</style>
+</head>
+
+<body>
+
+    <h1>Japan</h1>
+    <p class="Japan-intro"> Japan is an island country located in East Asia. This nation is home to over 125 million people and is best known for its rich cuisine, historical temples, and divine nature.</p>
+
+    <div class="picture-box">
+        <h2>Tourist Attractions in Japan</h2>
+        <img class="J1" src="images-folder/japan-photos/japan-image1.jpg" alt="Mt.Fuji">
+        <img class="J2" src="images-folder/japan-photos/japan-image2.jpg" alt="Cherry Blossom Festival in Tokyo">
+        <p class="Japan-text">Pictured on the left is one of Japan's world-renowned landmarks: Mt. Fuji, an active volcano
+            about 100 kilometers southwest of Tokyo. Pictured on the right is Japan's Cherry Blossoms Festival. This 
+            festival attracts thousands of tourists every year due to its spectacular display of the spring flower.
+        </p>
+    </div>
+
+    <hr class="divider">
+
+    <h3>Upcoming Events</h3>
+
+    <ul>
+        <li><a href="https://www.fujirockfestival.com" target="_blank">Fuji Rock Festival</a></li>
+        <li><a href="https://www.summersonic.com" target="_blank">Summer Sonic Osaka</a></li>       
+     </ul>
+
+    <hr class="divider">
+    
+    <h4>Newsfeed</h4>
+        <p class="newsfeed-headline"><b>Northeastern Japan suffers from heavy rain, flooding.</b></p>
+        <p class="summary">Heavy rain has continued in parts of Northeastern Japan, causing extensive flooding and raising risks of landslides.</p>
+        <p class="newsfeed-headline"><b>CPTPP Members Formally Approve Britain's Membership.</b></p>
+        <p class="summary">Japan, Australia, and other members of the CPTPP free trade agreement formally 
+            approved Britain's application for membership on Sunday, expanding its reach beyond the Asia-Pacific 
+            region.</p>
+    <hr class="divider">
+
+    <h5>How Much Does A Japan Trip Cost?</h5>
+
+    <table>
+        <tr>
+            <td class="lightpink"></td>
+            <td class="lightpink"><b>Price</b></td>
+        </tr>
+        <tr>
+            <td>Ticket from JFK</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>Hotel for 2 per night</td>
+            <td>$150</td>
+        </tr>
+        <tr>
+            <td>Food per person per day</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td>Attractions and activities per person</td>
+            <td>$200</td>
+        </tr>
+        <tr>
+            <td class="lightpink"><b>Total cost per day per person</b></td>
+            <td class="lightpink"><b>$430</b></td>
+        </tr>
+    </table>
+
+    <hr class="divider">
+    
+    <h6>Contact us</h6>
+    <div class="image-with-text">
+       <img class="logo" src="images-folder/logos/phone.png" alt="">
+       <p><span><a href="tel:+1800999999">1(800)-999-9999</a></span></p>
+    </div>
+    <div class="image-with-text">
+       <img class="logo" src="images-folder/logos/email.png" alt="">
+       <p>Email me at: <span><a href="mailto: srijoni.sarkar77@gmail.com">Srijoni Sarkar</a></span></p>
+    </div>
+    <div class="image-with-text"> 
+       <img class="logo" src="images-folder/logos/instagram.png" alt="">
+       <p><span><a href="https://www.instagram.com/japantravelcom/" target="_blank">Follow us on Instagram!</a></span></p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="info">
+        <a href="project1_homepage.html">Home</a>
+        <a href="project1-harajuku.html">Harajuku</a>
+        <a href="project1-cat-cafes.html">Cat Cafes</a>
+        <a href="project1_homepage.html">Contact Us</a>
+    </div>
+
+</body>
