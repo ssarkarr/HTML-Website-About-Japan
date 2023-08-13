@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+<meta charset ="utf-utf8">
+<meta name="viewport" content ="width=device-width, initial scale=1.0">
+<head>
+<style>
+    body {background-color: blanchedalmond;}
+    h1 {text-align: center;
+        font-size: xx-large;
+        color:brown}
+    h2 {font-size: x-large;
+        color: brown;}
+    .divider {border: none;
+      border-top: 1px solid brown;
+      margin: 20px 0;
+      margin-top: 40px;}
+      .container {display: flex;}
+    .picture-section, .text-section {
+        flex-basis: 33.33%;
+        border: 1px solid brown;
+        padding: 20px;}
+    .picture-section img {
+        width: 100%;
+        height: auto;}
+    .description-1 {color:brown;
+        text-align: center;
+        margin-top: 85px;}
+    .description-2 {color:brown;}
+    .info {text-align: center;
+           font-size: large;
+           color: brown;}
+    .info a {display: inline-block;
+        margin: 0 10px;}
+
+</style>
+</head>
+
+<body>
+    <h1>Cat Cafes</h1>
+
+    <hr class="divider">
+
+    <div class="container"> 
+        <div class="picture-section">
+            <img src="images-folder/japan-photos/cat-cafe1.jpg" alt="">
+        </div>
+        <div class="text-section">
+            
+            <p class="description-1">Cat cafes have become very popular in Japan, with Tokyo being home to at least 39
+                of these cafes. Japan as a whole has over 150 cat cafes. Pictured on the right is a screenshot from a 
+                viral YouTube video of a Tokyo cafe serving lunch to their queue of furry friends. Pictured on the left is the 
+                Temari no Ouchi cat cafe in Tokyo.
+            </p>
+        </div>
+        <div class="picture-section">
+            <img src="images-folder/japan-photos/cat-cafe2.jpg" alt="">
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Japan's Favorite Cafe Companion</h2>
+    <p class="description-2">The popularity behind Japan's cat cafes is due to many Japanese apartments forbidding pet 
+        ownership; therefore, it can be attributed to a desire to interact with cats to help relieve the stress of a busy
+        urban life.
+    </p>
+    
+    <hr class="divider">
+
+    <div class="info">
+        <a href="project1_homepage.html">Home</a>
+        <a href="project1-harajuku.html">Harajuku</a>
+        <a href="project1-cat-cafes.html">Cat Cafes</a>
+        <a href="project1_homepage.html">Contact Us</a>
+    </div>
+</body>
