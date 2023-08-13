@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+
+<meta charset ="utf-utf8">
+<meta name="viewport" content ="width=device-width, initial scale=1.0">
+<head>
+<style>
+    body {background-color:black;}
+    h1 {text-align: center;
+        font-size: xx-large;
+        color: rgb(79, 212, 79);}
+    h2 {font-size: x-large;
+        color: rgb(79, 212, 79)}
+    .divider {border: none;
+      border-top: 1px solid rgb(79, 212, 79);
+      margin: 20px 0;
+      margin-top: 40px;}
+    .container {display: flex;}
+    .picture-section, .text-section {
+        flex-basis: 33.33%;
+        border: 1px solid rgb(79, 212, 79);
+        padding: 20px;}
+    .picture-section img {
+        width: 100%;
+        height: auto;}
+    .description-1 {color:rgb(79, 212, 79);
+        text-align: center;
+        margin-top: 150px;}
+    .description-2 {color:rgb(79, 212, 79);}
+    .info {text-align: center;
+           font-size: large;
+           color: rgb(79, 212, 79);}
+    .info a {display: inline-block;
+        margin: 0 10px;
+        background-color: white;}
+   
+</style>
+</head>
+<body>
+    <h1>Harajuku</h1>
+
+    <hr class="divider">
+
+    <div class="container"> 
+        <div class="picture-section">
+            <img src="images-folder/japan-photos/harajuku-neon-green-city.jpg" alt="">
+        </div>
+        <div class="text-section">
+            
+            <p class="description-1">Harajuku is famously recognized as Japan's fashion district. Pictured to the right
+                shows a young person in Harajuku wearing an outfit inspired by the neon green colors of 
+                Tokyo at night.</p>
+        </div>
+        <div class="picture-section">
+            <img src="images-folder/japan-photos/harajuku-fashion2.jpg" alt="">
+        </div>
+    </div>
+
+    <hr class="divider">
+
+    <h2>Japan's Fashion District</h2>
+    <p class="description-2">Harajuku is known as Japan's fashion district, with quirky vintage clothing stores
+        and cosplay shops along Takeshita Street, and traditional botiques on Omotesando Avenue. The word Harajuku
+        means "meadow lodging" in Japanese. As a town, it's been around since at least the 12th century.</p>
+    
+    <hr class="divider">
+
+    <div class="info">
+        <a href="project1_homepage.html">Home</a>
+        <a href="project1-harajuku.html">Harajuku</a>
+        <a href="project1-cat-cafes.html">Cat Cafes</a>
+        <a href="project1_homepage.html">Contact Us</a>
+    </div>
+
+</body>
